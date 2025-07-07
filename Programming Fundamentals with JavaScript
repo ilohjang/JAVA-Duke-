@@ -1,0 +1,33 @@
+// write your code here
+var x = 3;
+var y = 4;
+var z = x + 2*y;
+
+print(z);
+
+var x = 3;
+var y = 2;
+y = x;
+print (x);
+print (y);
+
+var image = new SimpleImage("github_img.JPG");
+print (image);
+print(image.getWidth())
+print(image.getHeight())
+print(image.getRed(1,3))
+print(image.getGreen(1,3))
+print(image.getBlue(1,3))
+
+function square(x){
+	var ans = x*x;
+	return ans;
+}
+
+print(x);
+var square=square(x);
+print(square);
+
+x="a"
+y="b"
+print(x+y)
